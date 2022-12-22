@@ -4,9 +4,9 @@ def search(arr, target):
             return i
             break
     else:
-        return -1
+        return False
 
 
 arr = [1, 2, 3, 4, 6, 7, 4] #prints only the first occurance of the element
-target = 7
+target = -1
 print(search(arr, target))
